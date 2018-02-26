@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {AsyncService} from '../services/async.service';
+import { AsyncService } from '../services/async.service';
 
 @Component({
   selector: 'app-async-view',

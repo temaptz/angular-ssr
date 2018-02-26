@@ -22,6 +22,10 @@ import { TransferHttpCacheModule } from '@nguniversal/common';
       {
         path: 'async',
         loadChildren: './async/async.module#AsyncModule'
+      },
+      {
+          path: 'meta',
+          loadChildren: './meta/meta.module#MetaModule'
       }
     ]),
     TransferHttpCacheModule,
